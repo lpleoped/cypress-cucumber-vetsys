@@ -1,0 +1,20 @@
+{
+  "name": "cypress-cucumber-api-e2e",
+  "version": "1.0.0",
+  "description": "Proyecto de automatización de pruebas con Cypress y Cucumber",
+  "main": "index.js",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/jsonlogs",
+      "filePrefix": "",
+      "fileSuffix": ""
+    }
+  },
+  "dependencies": {
+    "cypress": "^13.11.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
