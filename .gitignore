@@ -11,7 +11,7 @@ cypress/screenshots/
 cypress/videos/
 
 # Environment variables
-.env
+cypress.env.json
 
 # MacOS specific files
 .DS_Store

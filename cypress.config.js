@@ -20,7 +20,7 @@ module.exports = defineConfig({
       }
       on('file:preprocessor', cucumber(options));
     },
-    baseUrl: '',
+    baseUrl: 'http://vetsys.com.uy:3000/',
     specPattern: 'cypress/integration/features/*.{js,jsx,ts,tsx,feature}',
     viewportWidth: 1920,
     viewportHeight: 1080,
