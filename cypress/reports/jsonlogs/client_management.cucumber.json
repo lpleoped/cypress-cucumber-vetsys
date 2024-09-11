@@ -22,7 +22,7 @@
             "name": "A user logged in with valid credentials",
             "result": {
               "status": "passed",
-              "duration": 1994000000
+              "duration": 1873000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "A user navigate to the \"Clientes\" section",
             "result": {
               "status": "passed",
-              "duration": 547000000
+              "duration": 522000000
             }
           }
         ]

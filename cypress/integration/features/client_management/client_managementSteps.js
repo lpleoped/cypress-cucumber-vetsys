@@ -8,7 +8,7 @@ Given('A user logged in with valid credentials', () => {
 });
 
 When('A user navigate to the {string} section', (section) => {
-  ClientPage.navigateToClientsPage();
+  ClientPage.navigateTo(section);
 });
 
 When('A user add a new client with ID {string}', (cedula) => {

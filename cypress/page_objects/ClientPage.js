@@ -6,9 +6,9 @@ class ClientPage {
         title: () =>  cy.get('h1')
     }
 
-    navigateToClientsPage(){
+    navigateTo(section){
         this.elements.clientsMenuOption().click();
-        this.elements.title().should('contain', 'Clientes');
+        this.elements.title().should('contain', section);
     }    
 }
 
