@@ -1,9 +1,9 @@
 {
-  "name": "cypress-cucumber-api-e2e",
+  "name": "cypress-cucumber-vetsys",
   "version": "1.0.0",
   "description": "Proyecto de automatización de pruebas con Cypress y Cucumber",
   "main": "index.js",
-  "license": "ISC",
+  "license": "MIT",
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
     "cucumberJson": {
@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "cypress": "^13.11.0",
-    "cypress-cucumber-preprocessor": "^4.3.1",
-    "dotenv": "^16.4.5"
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }

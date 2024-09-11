@@ -1,7 +1,7 @@
 const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
-  projectId: "cypress-cucumber-api-e2e",
+  projectId: "cypress-cucumber-vetsys",
   defaultCommandTimeout: 100000,
   responseTimeout: 100000,
   execTimeout: 100000,
@@ -20,7 +20,7 @@ module.exports = defineConfig({
       }
       on('file:preprocessor', cucumber(options));
     },
-    baseUrl: 'https://www.saucedemo.com/',
+    baseUrl: '',
     specPattern: 'cypress/integration/features/*.{js,jsx,ts,tsx,feature}',
     viewportWidth: 1920,
     viewportHeight: 1080,
