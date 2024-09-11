@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Client and Pet Management",
+    "line": 1,
+    "id": "client-and-pet-management",
+    "tags": [],
+    "uri": "client_management.feature",
+    "elements": [
+      {
+        "id": "client-and-pet-management;add-a-new-client-with-valid-id",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add a new client with valid ID",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user logged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1873000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user navigate to the \"Clientes\" section",
+            "result": {
+              "status": "passed",
+              "duration": 522000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -8,25 +8,21 @@ Given('A user logged in with valid credentials', () => {
 });
 
 When('A user navigate to the {string} section', (section) => {
-  /* if (section === 'Clientes') {
-       ClientPage.goToClients();
-   }*/
+  ClientPage.navigateTo(section);
 });
 
 When('A user add a new client with ID {string}', (cedula) => {
-  /*const clientData = { cedula, name: 'Juan Perez' };
-  ClientPage.addClient(clientData);*/
+
 });
 
 Then('A user should see the new client in the grid', () => {
-  //ClientPage.verifyClientInGrid('45012345');
+
 });
 
 When('A user add a new pet named {string}', (petName) => {
-  /* const petData = { name: petName };
-   PetPage.addPet(petData);*/
+
 });
 
 Then('A user should see the new pet in the grid', () => {
-  //PetPage.verifyPetInGrid('Firulais');
+
 });
