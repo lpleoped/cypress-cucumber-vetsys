@@ -19,20 +19,70 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "A user logged in with valid credentials",
+            "name": "the user is logged in with valid credentials",
             "result": {
               "status": "passed",
-              "duration": 1873000000
+              "duration": 2392000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "A user navigate to the \"Clientes\" section",
+            "name": "the user navigates to the \"Clientes\" section",
             "result": {
               "status": "passed",
-              "duration": 522000000
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks the button to add a new client",
+            "result": {
+              "status": "passed",
+              "duration": 432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user fills the client form with valid data and a valid ID",
+            "result": {
+              "status": "passed",
+              "duration": 2126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the new client in the grid",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "client-and-pet-management;add-a-new-pet-to-the-client",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Add a new pet to the client",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user has selected the client with ID",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
             }
           }
         ]

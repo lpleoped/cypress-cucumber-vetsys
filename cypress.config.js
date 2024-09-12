@@ -2,10 +2,10 @@ const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   projectId: "cypress-cucumber-vetsys",
-  defaultCommandTimeout: 100000,
-  responseTimeout: 100000,
-  execTimeout: 100000,
-  pageLoadTimeout: 600000,
+  defaultCommandTimeout: 10000,
+  responseTimeout: 10000,
+  execTimeout: 10000,
+  pageLoadTimeout: 10000,
   video: false,
   env: {
   },
