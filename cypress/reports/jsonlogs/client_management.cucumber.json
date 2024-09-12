@@ -22,7 +22,7 @@
             "name": "the user is logged in with valid credentials",
             "result": {
               "status": "passed",
-              "duration": 2392000000
+              "duration": 2562000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user navigates to the \"Clientes\" section",
             "result": {
               "status": "passed",
-              "duration": 660000000
+              "duration": 681000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "the user clicks the button to add a new client",
             "result": {
               "status": "passed",
-              "duration": 432000000
+              "duration": 347000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "the user fills the client form with valid data and a valid ID",
             "result": {
               "status": "passed",
-              "duration": 2126000000
+              "duration": 2070000000
             }
           },
           {
@@ -70,7 +70,7 @@
       {
         "id": "client-and-pet-management;add-a-new-pet-to-the-client",
         "keyword": "Scenario",
-        "line": 11,
+        "line": 10,
         "name": "Add a new pet to the client",
         "tags": [],
         "type": "scenario",
@@ -78,11 +78,41 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 12,
+            "line": 11,
             "name": "the user has selected the client with ID",
             "result": {
               "status": "passed",
-              "duration": 75000000
+              "duration": 2862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user clicks the button to add a new pet",
+            "result": {
+              "status": "passed",
+              "duration": 845000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user fills the pet form with valid data for the pet",
+            "result": {
+              "status": "passed",
+              "duration": 1482000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user should see the new pet in the grid",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
             }
           }
         ]
