@@ -11,10 +11,12 @@ class ClientPage {
         inputLastName: () => cy.get('input[name="apellido"]'),
         inputEmail: () => cy.get('input[name="correo"]'),
         selectMemberType: () => cy.get('#mui-component-select-tipoSocio'),
-        selectMemberTypeOption: (value) => cy.get(`li[data-value="${value}"]`),
+        selectMemberTypeOption: (option) => cy.get(`li[data-value="${option}"]`),
         btnSave: () => cy.get('button[type="submit"]'),
         alertMessage: () => cy.get('[role="alert"]'),
-        clientGridId: () => cy.get('div[data-field="PersonaCedula"][data-rowindex="0"]')
+        clientGridId: () => cy.get('div[data-field="PersonaCedula"][data-rowindex="0"]'),
+        btnAddPet: () => cy.get('button[aria-label="Mascotas"]')
+
     }
 
     navigateTo(section) {
@@ -37,9 +39,6 @@ class ClientPage {
         this.elements.alertMessage().should('be.visible')
             .and('contain.text', 'Cliente creado con éxito')
     }
-    filterClientById(ci) {
-       
-    }
     verifyClientInGrid(ci) {
         this.elements.clientGridId().should('contain.text', ci);
     }
@@ -47,7 +46,7 @@ class ClientPage {
         this.elements.clientGridId().contains(ci).click();
     }
     addPet() {
-
+        this.elements.btnAddPet().click();
     }
 }
 
