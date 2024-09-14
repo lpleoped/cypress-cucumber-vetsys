@@ -1,7 +1,7 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
-const LoginPage = require('../../../page_objects/LoginPage');
-const ClientPage = require('../../../page_objects/ClientPage');
-const PetPage = require('../../../page_objects/PetPage');
+const LoginPage = require('../../../page_objects/loginPage');
+const ClientPage = require('../../../page_objects/clientPage');
+const PetPage = require('../../../page_objects/petPage');
 const utils = require('../../../utils/index');
 let validCi;
 let clientData;
