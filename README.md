@@ -4,15 +4,15 @@
 
 Este proyecto es una demostración de un flujo de automatización usando [Cypress](https://www.cypress.io/) y [Cucumber](https://cucumber.io/). El objetivo de este proyecto es realizar pruebas sobre la  aplicación web [VetSys](http://vetsys.com.uy:3000/), asegurando la calidad del siguiente flujo:
 
-Hacer login en la app:
+- Hacer login en la app:
               -Usuario: ******* 
               -Pass: *******
-Ir a Clientes:
+- Ir a Clientes:
               -Apretar botón "+".
               -Dar de alta Cliente nuevo.
               -La cédula tiene que ser válida y modular.
               -El cliente dado de alta se debe visualizar en la grilla.
-Seleccionar al Cliente dado de alta:
+- Seleccionar al Cliente dado de alta:
               -Presionar el botón sobre la grilla con icono de huella, para ingresar al mantenimiento de mascotas.
               -Apretar botón "+".
               -Dar de alta una mascota.
