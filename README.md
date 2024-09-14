@@ -81,7 +81,8 @@ Esta interfaz gráfica te permitirá ejecutar las pruebas manualmente.
 8. Si deseas repetir las pruebas, puedes hacer clic en "Run All Tests" o seleccionar el archivo de prueba nuevamente.
 
 * **Opción 2**: Ejecutar las pruebas en modo headless (sin interfaz gráfica)
-* **Esta forma no te permitirá ver tantos detalles de las interacciones del usuario y el flujo de la prueba.***
+  
+***Esta forma no te permitirá ver tantos detalles de las interacciones del usuario y el flujo de la prueba.***
 
 Para ejecutar las pruebas de forma automática en modo headless, utiliza:
 
